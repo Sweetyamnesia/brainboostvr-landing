@@ -1,186 +1,96 @@
-/* ========== General Styles ========== */
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #F5F7FA;
-  color: #1E1E2F;
-  scroll-behavior: smooth;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    padding: 0 20px;
 }
 
-a {
-  text-decoration: none;
-}
-
-/* ========== Header ========== */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: sticky;
-  top: 0;
-  z-index: 100;
+    background-color: #1e1e2f;
+    color: #fff;
+    padding: 40px 20px;
 }
 
-header .logo img {
-  height: 50px;
+header .logo {
+    width: 120px;
+    margin-bottom: 20px;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
-nav ul li a {
-  color: #1E1E2F;
-  font-weight: 600;
-  transition: color 0.3s;
+header p {
+    font-size: 1.1rem;
 }
 
-nav ul li a:hover {
-  color: #42D3C5;
+/* Main sections */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 10px;
 }
 
-/* ========== Intro Section ========== */
-#intro {
-  text-align: center;
-  padding: 4rem 2rem;
-  background: linear-gradient(135deg, #7B55C5, #42D3C5);
-  color: white;
+section {
+    margin-bottom: 60px;
 }
 
-#intro .cover-image {
-  max-width: 400px;
-  width: 80%;
-  margin-bottom: 2rem;
-  border-radius: 12px;
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1e1e2f;
 }
 
-#intro h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
 }
 
-#intro p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+/* Video styling */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    margin: 0 auto;
 }
 
-/* ========== Features Section ========== */
-#features {
-  padding: 4rem 2rem;
-  text-align: center;
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border:0;
 }
 
-#features h2 {
-  font-size: 2rem;
-  margin-bottom: 3rem;
+/* Links */
+a {
+    color: #1e88e5;
+    text-decoration: none;
 }
 
-.feature-cards {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
+a:hover {
+    text-decoration: underline;
 }
 
-.feature {
-  background-color: white;
-  border-radius: 12px;
-  padding: 1.5rem;
-  max-width: 300px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.feature:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
-}
-
-.feature img {
-  max-width: 100%;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-}
-
-/* ========== About Section ========== */
-#about {
-  padding: 4rem 2rem;
-  background-color: #e5e5f7;
-}
-
-#about h2 {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-#about ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-#about ul li {
-  margin-bottom: 0.5rem;
-}
-
-#about .links li {
-  display: inline-block;
-  margin-right: 1rem;
-  transition: transform 0.2s;
-}
-
-#about .links li a {
-  color: #42D3C5;
-  font-weight: 600;
-}
-
-#about .links li a:hover {
-  text-decoration: underline;
-  transform: translateY(-2px);
-}
-
-/* ========== Deliverables Section ========== */
-#deliverables {
-  padding: 4rem 2rem;
-  text-align: center;
-}
-
-.video-wrapper {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.video-wrapper iframe {
-  width: 100%;
-  height: 400px;
-  border-radius: 12px;
-  margin-bottom: 1rem;
-}
-
-.video-description {
-  font-size: 1rem;
-  color: #1E1E2F;
-  line-height: 1.5;
-  text-align: justify;
-}
-
-/* ========== Responsive ========== */
-@media (max-width: 768px) {
-  .feature-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .video-wrapper iframe {
-    height: 250px;
-  }
+/* Footer */
+footer {
+    background-color: #1e1e2f;
+    color: #fff;
+    padding: 20px;
+    font-size: 0.9rem;
 }
