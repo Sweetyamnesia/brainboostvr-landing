@@ -1,84 +1,64 @@
-<h1 align="center">Angela Rhin 👋</h1>
-<h3 align="center">Développeuse XR – expériences immersives & interaction utilisateur</h3>
+# 🧠 BrainBoostVR – Landing Page
+
+Official presentation website for the **BrainBoostVR** XR project.
+
+👉 **Live website:** https://sweetyamnesia.github.io/brainboostvr-landing/
 
 ---
 
-## 💡 À propos de moi
+## 💡 Purpose
 
-Issue d’un parcours mêlant **numérique, pédagogie et médiation**, je me suis orientée vers le développement informatique avec un intérêt particulier pour les **technologies immersives et les interactions utilisateur**.
+This repository contains the landing page created to present **BrainBoostVR**, a virtual reality application developed with Unity and designed around immersive cognitive exercises.
 
-J’ai suivi la formation **Holberton School France**, où j’ai développé mes compétences en **C, Python, JavaScript, React**, ainsi qu’une première expérience en **Unity et VR**.
+The website provides a visual overview of the project, including:
 
-J’ai également travaillé à l’**INRIA**, ce qui m’a permis de développer mon expérience du travail en équipe, mon adaptabilité et ma capacité à évoluer dans un environnement technique exigeant.
-
-Aujourd’hui, je m’intéresse particulièrement au développement **XR avec Unity et Godot**, à la conception d'interactions immersives et aux projets qui combinent **technologie, créativité et expérience utilisateur**.
-
----
-
-## 🚀 Projet XR principal
-
-### 🧠 [BrainBoostVR](https://github.com/Sweetyamnesia/BrainBoostVR)
-
-**Unity · C# · XR · ASP.NET Core · Firebase · MySQL · Oculus Quest 2**
-
-Application VR développée comme projet de portfolio autour d’exercices cognitifs immersifs.
-
-Le projet combine :
-
-* 🥽 interactions XR et environnement VR
-* 🎮 exercices interactifs
-* 📊 scoring et suivi des sessions
-* 🔐 authentification Firebase
-* 🌐 API REST avec ASP.NET Core
-* 🗄️ persistance des données avec MySQL
-
-👉 **[Voir la présentation du projet](https://sweetyamnesia.github.io/brainboostvr-landing/)**
+* 🎮 Project overview
+* 🥽 VR experience
+* 🧠 Cognitive exercises
+* ✨ Key features
+* 📸 Visual presentation
+* 🛠️ Technologies used
 
 ---
 
-## 📚 Autres projets
+## 🔗 Related Project
 
-### 🐚 [HB Shell](https://github.com/Sweetyamnesia/holbertonschool-shell)
+**BrainBoostVR – Main Repository**
 
-**C · Unix · Algorithms**
+https://github.com/Sweetyamnesia/BrainBoostVR
 
-Interpréteur de commandes minimal avec gestion des processus, parsing et signaux.
-
-### 🏠 [HBnB](https://github.com/Sweetyamnesia/HBnB)
-
-**Python · MVC · REST API**
-
-Application inspirée d'Airbnb développée autour d'une architecture MVC et d'une API REST.
-
-### ⚛️ [Holberton Web React](https://github.com/Sweetyamnesia/holbertonschool-web_react)
-
-**React · JavaScript · REST API**
-
-Interfaces web utilisant des composants React modulaires et des APIs REST.
+The main repository contains the Unity application, ASP.NET Core API, project documentation, and development history.
 
 ---
 
-## 💻 Technologies
+## 🛠 Tech Stack
 
-* **Langages :** C, Python, JavaScript, HTML/CSS
-* **XR :** Unity, Godot
-* **Frameworks :** React, ASP.NET Core
-* **Backend :** REST APIs, MySQL, Firebase
-* **Tools :** Git, GitHub, Linux, Postman
-
----
-
-## 🌟 Compétences
-
-* Autonomie
-* Curiosité technique
-* Pédagogie
-* Esprit d’équipe
-* Adaptabilité
-* Conception centrée utilisateur
+* **HTML**
+* **CSS**
+* **JavaScript**
+* **GitHub Pages**
 
 ---
 
-## 📫 Contact
+## 📁 Structure
 
-[LinkedIn](https://linkedin.com/in/angela-rhin) • [GitHub](https://github.com/Sweetyamnesia)
+```text
+brainboostvr-landing/
+├── index.html
+├── style.css
+├── script.js
+└── pictures/
+```
+
+* `index.html` → main landing page
+* `style.css` → website styling
+* `script.js` → page interactions
+* `pictures/` → visual assets used by the website
+
+---
+
+## 🌐 Deployment
+
+The website is deployed using **GitHub Pages**.
+
+👉 https://sweetyamnesia.github.io/brainboostvr-landing/
